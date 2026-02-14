@@ -36,7 +36,7 @@ This API allows clients to fetch products and add new products to a MySQL/SQLite
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/kantsverma/product-catalog-api.git
 cd product-catalog-api
 ```
 
@@ -69,12 +69,6 @@ DB_USERNAME=root
 DB_PASSWORD=secret
 ```
 
-> For SQLite, you can use:
-
-```dotenv
-DB_CONNECTION=sqlite
-DB_DATABASE=/absolute/path/to/database.sqlite
-```
 
 ---
 
